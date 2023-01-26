@@ -1,3 +1,16 @@
+:root {
+    --beige: #F5EDCE;
+    --blauw: #89C4E1;
+    --paars: #58287F;
+    --zwart: #1A0000;
+}
+
+/*  voorbeeld voor het gebruiken van de kleurer:
+ *
+ *  color: var(--beige);
+ *
+ */
+
 * {
     margin: 0;
     padding: 0;
@@ -27,7 +40,7 @@ line-height: 25px;
 .content {
   max-width: 1400px;
   margin: auto;
-  background: white;
+  background: var(--beige);
   padding: 10px;
 }
 
