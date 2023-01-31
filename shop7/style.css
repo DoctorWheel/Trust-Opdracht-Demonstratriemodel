@@ -173,7 +173,7 @@ li a {
 
 .container-products ion-icon {
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color:  var(--blauw);
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
