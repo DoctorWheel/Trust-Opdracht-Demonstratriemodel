@@ -88,7 +88,8 @@ nav li span {
 
 li a {
     padding: 5px;
-    background-color: #fff;
+    background-color: #89C4E1;
+    color: var(--beige);
     text-decoration: none;;
 }
 
@@ -99,7 +100,7 @@ li a {
 }
 
 .cart a {
-    background-color: royalblue;
+    background-color: #58287F;
     color: #fff;
     cursor: pointer;
     text-decoration: none;
@@ -173,7 +174,7 @@ li a {
 
 .container-products ion-icon {
     font-size: 25px;
-    color: blue;
+    color:  var(--blauw);
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
@@ -216,7 +217,7 @@ li a {
 .product {
     width: 45%;
     display: flex;
-/*  justify-content: space-around; */
+    justify-content: space-around; 
     align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid lightgray;	
