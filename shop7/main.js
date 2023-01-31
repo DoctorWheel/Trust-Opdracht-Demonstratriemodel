@@ -4,13 +4,13 @@ let products = [
     {
         name: "Nike Air Force 1 '07",
         tag: "Nikeaanvoet",
-        price: 15,
+        price: 119,
         inCart: 0
     },
     {
         name: "Adidas Superstar",
         tag: "Adidasaanvoet",
-        price: 20,
+        price: 120,
         inCart: 0
     },
     {
