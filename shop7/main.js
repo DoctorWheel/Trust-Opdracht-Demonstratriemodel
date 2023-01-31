@@ -2,15 +2,15 @@ let carts = document.querySelectorAll('.add-cart');
 
 let products = [ 
     {
-        name: "Nike Air Force 1 '07",
-        tag: "Nikeaanvoet",
-        price: 119.99,
+        name: "Docent zonder haar",
+        tag: "docentzonderhaar",
+        price: 15,
         inCart: 0
     },
     {
-        name: "Adidas Superstar",
-        tag: "Adidasaanvoet",
-        price: 120,
+        name: "Docent met haar 1",
+        tag: "docentmethaar1",
+        price: 20,
         inCart: 0
     },
     {
