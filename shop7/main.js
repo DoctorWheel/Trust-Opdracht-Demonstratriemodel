@@ -3,13 +3,13 @@ let carts = document.querySelectorAll('.add-cart');
 let products = [ 
     {
         name: "Docent zonder haar",
-        tag: "docentzonderhaar",
+        tag: "Nikeaanvoet",
         price: 15,
         inCart: 0
     },
     {
         name: "Docent met haar 1",
-        tag: "docentmethaar1",
+        tag: "Adidasaanvoet",
         price: 20,
         inCart: 0
     },
