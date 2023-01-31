@@ -31,25 +31,25 @@
     display:table;
 }	
 	
-h3 {font-family: Cambria;
-margin-bottom: 0;
-margin-top: 0;
-line-height: 25px;
+h3 {
+    font-family: Cambria;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 25px;
 }
 
 .content {
   max-width: 1400px;
-  margin: auto;
+  margin: 0 auto;
   background: var(--beige);
-  padding: 10px;
 }
 
 header {
-    background-image: url('images/uu.png');
+    /* background-image: url('images/uu.png'); */
     background-repeat: no-repeat;
     background-position: center;
 	background-size: 20%;
-    position: relative;
+    position: relative; */
 }
 
 .overlay {
@@ -108,7 +108,7 @@ li a {
 
 .container,
 .container-products {
-	alignment-baseline: center;
+	/* alignment-baseline: center; */
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
