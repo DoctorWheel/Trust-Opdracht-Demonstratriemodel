@@ -3,13 +3,13 @@ let carts = document.querySelectorAll('.add-cart');
 let products = [ 
     {
         name: "Nike Air Force 1 '07",
-        tag: "nikeaanvoet",
+        tag: "Nikeaanvoet",
         price: 119.99,
         inCart: 0
     },
     {
         name: "Adidas Superstar",
-        tag: "adidasaanvoet",
+        tag: "Adidasaanvoet",
         price: 120,
         inCart: 0
     },
