@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 661 246.05">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-2 {
+        fill: #f5edce;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        fill: #1a0000;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        font-family: Unbounded-Black, Unbounded;
+        font-size: 100px;
+        font-weight: 800;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-2" x="10.5" y="10.5" width="640" height="217"/>
+      <path class="cls-2" d="m640,21v196H21V21h619m21-21H0v238h661V0h0Z"/>
+    </g>
+    <g>
+      <rect class="cls-4" x="10.5" y="10.5" width="640" height="99"/>
+      <path class="cls-4" d="m640,21v78H21V21h619m21-21H0v120h661V0h0Z"/>
+    </g>
+    <text class="cls-6" transform="translate(17.9 97.45)"><tspan class="cls-2"><tspan x="0" y="0">SN</tspan><tspan class="cls-3" x="186.5" y="0">E</tspan><tspan x="266.3" y="0">AKER</tspan></tspan><tspan class="cls-4"><tspan x="0" y="120">R</tspan><tspan class="cls-5" x="87.6" y="120">E</tspan><tspan class="cls-1" x="168.3" y="120">T</tspan><tspan x="241" y="120">AI</tspan><tspan class="cls-7" x="378.4" y="120">L</tspan></tspan></text>
+  </g>
+</svg>

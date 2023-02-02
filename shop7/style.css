@@ -1,3 +1,16 @@
+:root {
+    --beige: #F5EDCE;
+    --blauw: #89C4E1;
+    --paars: #58287F;
+    --zwart: #1A0000;
+}
+
+/*  voorbeeld voor het gebruiken van de kleuren:
+ *
+ *  color: var(--beige);
+ *
+ */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +22,7 @@
 {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 	text-align: center;
 	width: auto;
     height: auto;
@@ -18,25 +31,25 @@
     display:table;
 }	
 	
-h3 {font-family: Cambria;
-margin-bottom: 0;
-margin-top: 0;
-line-height: 25px;
+h3 {
+    font-family: Cambria;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 25px;
 }
 
 .content {
   max-width: 1400px;
-  margin: auto;
-  background: white;
-  padding: 10px;
+  margin: 0 auto;
+  background: var(--beige);
 }
 
 header {
-    background-image: url('images/uu.png');
+    /* background-image: url('images/uu.png'); */
     background-repeat: no-repeat;
     background-position: center;
 	background-size: 20%;
-    position: relative;
+    position: relative; */
 }
 
 .overlay {
@@ -75,7 +88,8 @@ nav li span {
 
 li a {
     padding: 5px;
-    background-color: #fff;
+    background-color: #89C4E1;
+    color: var(--beige);
     text-decoration: none;;
 }
 
@@ -86,7 +100,7 @@ li a {
 }
 
 .cart a {
-    background-color: royalblue;
+    background-color: #58287F;
     color: #fff;
     cursor: pointer;
     text-decoration: none;
@@ -95,7 +109,7 @@ li a {
 
 .container,
 .container-products {
-	alignment-baseline: center;
+	/* alignment-baseline: center; */
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -118,7 +132,7 @@ li a {
 	margin-right: 20px;
     margin-left: 20px;
     width: 140px;
-    background-color: darkgrey;
+    background-color: var(--blauw);
     transition: all 0.3s ease-in-out;
     opacity: 0;
 	color: white;
@@ -160,7 +174,7 @@ li a {
 
 .container-products ion-icon {
     font-size: 25px;
-    color: blue;
+    color:  var(--blauw);
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
@@ -171,7 +185,7 @@ li a {
     max-width: 650px;
     display: flex;
     justify-content: flex-start;
-    border-bottom: 4px solid lightgray;
+    border-bottom: 4px solid var(--paars);
     margin: 0 auto;
 }
 
@@ -203,7 +217,7 @@ li a {
 .product {
     width: 45%;
     display: flex;
-/*  justify-content: space-around; */
+    justify-content: space-around; 
     align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid lightgray;	
