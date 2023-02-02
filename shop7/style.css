@@ -132,7 +132,7 @@ li a {
 	margin-right: 20px;
     margin-left: 20px;
     width: 140px;
-    background-color: darkgrey;
+    background-color: var(--blauw);
     transition: all 0.3s ease-in-out;
     opacity: 0;
 	color: white;
@@ -185,7 +185,7 @@ li a {
     max-width: 650px;
     display: flex;
     justify-content: flex-start;
-    border-bottom: 4px solid lightgray;
+    border-bottom: 4px solid var(--paars);
     margin: 0 auto;
 }
 
