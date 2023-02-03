@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/patrickwang/Documents/GitHub/Trust-Opdracht-Demonstratriemodel/shop7/index.html"
+            "file": "/Users/Patrick/Documents/GitHub/Trust-Opdracht-Demonstratriemodel/shop7/index.html"
         }
     ]
 }

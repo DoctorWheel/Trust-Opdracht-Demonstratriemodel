@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1154.5 126.05">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1167.5 126.05">
   <defs>
     <style>
       .cls-1, .cls-2 {
@@ -35,14 +35,14 @@
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <g>
-      <rect class="cls-4" x="671.75" y="11.25" width="471.5" height="97.5"/>
-      <path class="cls-4" d="m1132,22.5v75h-449V22.5h449m22.5-22.5h-494v120h494V0h0Z"/>
+      <rect class="cls-4" x="654.75" y="11.25" width="501.5" height="97.5"/>
+      <path class="cls-4" d="m1145,22.5v75h-479V22.5h479m22.5-22.5h-524v120h524V0h0Z"/>
     </g>
     <g>
       <rect class="cls-2" x="10.5" y="10.5" width="640" height="99"/>
       <path class="cls-2" d="m640,21v78H21V21h619m21-21H0v120h661V0h0Z"/>
     </g>
     <text class="cls-3" transform="translate(17.9 97.45)"><tspan x="0" y="0">SN</tspan><tspan class="cls-7" x="186.5" y="0">E</tspan><tspan x="266.3" y="0">AKER</tspan></text>
-    <text class="cls-1" transform="translate(677.37 97.45)"><tspan x="0" y="0">R</tspan><tspan class="cls-6" x="87.6" y="0">E</tspan><tspan class="cls-5" x="168.3" y="0">T</tspan><tspan x="241" y="0">AI</tspan><tspan class="cls-8" x="378.4" y="0">L</tspan></text>
+    <text class="cls-1" transform="translate(684.37 97.45)"><tspan x="0" y="0">R</tspan><tspan class="cls-6" x="87.6" y="0">E</tspan><tspan class="cls-5" x="168.3" y="0">T</tspan><tspan x="241" y="0">AI</tspan><tspan class="cls-8" x="378.4" y="0">L</tspan></text>
   </g>
 </svg>
