@@ -447,7 +447,7 @@ table i{
     padding-left: 300px;
 }
 
-.container .btn {
+.container2 .btn {
     position: absolute;
     top: 80%;
     right: 0%;
@@ -461,3 +461,4 @@ table i{
     cursor: pointer;
     border-radius: 5px;
   }
+
