@@ -7,7 +7,7 @@
     --zwart: #1A0000;
 }
 
-/*  voorbeeld voor het gebruiken van de kleuren:
+/*  Voorbeeld voor het gebruiken van de kleuren:
  *
  *  color: var(--beige);
  *
@@ -20,10 +20,30 @@
     font-weight: 400;
 }
 
+/* General */
+
 h1, h2, h3, h4, h5 {
     font-family: 'Poppins';
     font-weight: 900;
 }
+
+body {
+    background-color: var(--beige);
+}
+
+/* Template Header*/
+
+.assurances ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.assurances li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Old Code
 
 #detail
 {
@@ -52,7 +72,7 @@ h3 {
 }
 
 header {
-    /* background-image: url('images/uu.png'); */
+    /* background-image: url('images/uu.png'); *//*
     background-repeat: no-repeat;
     background-position: center;
 	background-size: 20%;
@@ -116,7 +136,7 @@ li a {
 
 .container,
 .container-products {
-	/* alignment-baseline: center; */
+	/* alignment-baseline: center; *//*
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -169,7 +189,7 @@ li a {
     text-decoration: none;
 }
 
-/* ----------------- CART PAGE --------------- */
+/* ----------------- CART PAGE --------------- *//*
 
 .container-products {
     max-width: 650px;
@@ -350,4 +370,5 @@ li a {
         line-height: 1.5; }
       .footer-20192 .cta h3 {
         font-size: 20px; }
-  
+
+*/
