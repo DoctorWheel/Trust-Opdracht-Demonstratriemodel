@@ -63,7 +63,7 @@ header .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 95%;
 }
 
 header img{
@@ -138,7 +138,7 @@ header li a i {
     text-decoration: underline;
 }
 /* Old Code
-
+*/
 #detail
 {
     display: block;
@@ -151,20 +151,19 @@ header li a i {
     padding: 0;
     display:table;
 }	
-	
+/*	
 h3 {
     font-family: Cambria;
     margin-bottom: 0;
     margin-top: 0;
     line-height: 25px;
 }
-
+*/
 .content {
   max-width: 1400px;
   margin: 0 auto;
-  background: var(--beige);
 }
-
+/*
 header {
     /* background-image: url('images/uu.png'); *//*
     background-repeat: no-repeat;
@@ -213,7 +212,7 @@ li a {
     color: var(--beige);
     text-decoration: none;;
 }
-
+*/
 .cart ion-icon {
    vertical-align: bottom;
    font-size: 20px;
@@ -226,11 +225,11 @@ li a {
     cursor: pointer;
     text-decoration: none;
 }
-
-
+/*
+*/
 .container,
 .container-products {
-	/* alignment-baseline: center; *//*
+	/* alignment-baseline: center; */
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -283,7 +282,7 @@ li a {
     text-decoration: none;
 }
 
-/* ----------------- CART PAGE --------------- *//*
+/* ----------------- CART PAGE --------------- */
 
 .container-products {
     max-width: 650px;
@@ -383,7 +382,7 @@ li a {
     width: 25%;
 
 }
-
+/*
 @media(max-width: 500px) {
     nav h2 {
         width: 100%;
