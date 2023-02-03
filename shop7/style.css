@@ -47,8 +47,8 @@ body {
 }
 .assurances li{
     float: left;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 header {
@@ -81,23 +81,62 @@ header li {
 }
 
 header li a {
-    background-color: var(--paars);
+    background-color: white;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    color: white;
+    color: var(--zwart);
     text-decoration: none;
     border-radius: 3em;
+    transition: all 0.25s;
+}
+
+header li a:hover {
+    color: var(--blauw);
+    transition: all 0.25s;
 }
 
 header li a i {
     padding-right: 10px;
 }
 
-.header .content {
-    width: 80%;
+.header > .content {
+    margin: 2% auto;
+    width: 50%;
 }
 
+.header > .content > hr {
+    border: none;
+    border-radius: 2px;
+    height: 2px;
+    background-color: var(--zwart);
+}
+
+.nav-primary {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-primary ul {
+    list-style-type: none;
+}
+
+.nav-primary li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-primary li a {
+    color: var(--zwart);
+    text-decoration: none;
+}
+
+.nav-primary li a:hover {
+    text-decoration: underline;
+}
 /* Old Code
 
 #detail

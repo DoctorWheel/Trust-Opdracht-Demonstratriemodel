@@ -4,7 +4,7 @@ class Header extends HTMLElement {
     }
 
     connectedCallback() {
-        this.innerHTML = '<div class="header"><div class="assurances"><ul><li>Verzending</li><li>Bezorging</li><li>Retouneren</li></ul></div><header><img src="images/Sneaker Retail Logo Horizontal.svg" alt="logo"><nav class="nav-secondary"><ul><li>Zoeken</li><li>Winkelwagen</li><li>Account</li></ul></nav></header><hr><nav class="nav-primary"><ul><li>Voorpagina</li><li>Heren Schoenen</li><li>Dames Schoenen</li><li>Kinder Schoenen</li></ul></nav><hr></div>';
+        this.innerHTML = '<div class="header"> <div class="assurances"> <ul> <li>Gratis Verzending</li> <li>Snelle Bezorging</li> <li>Gratis Retouneren</li> </ul> </div> <header> <div class="content"> <img src="images/Sneaker Retail Logo Horizontal Transparant.svg" alt="logo"> <nav class="nav-secondary"> <ul> <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Zoeken</a></li> <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i>Winkelwagen</a></li> <li><a href="#"><i class="fa-solid fa-user"></i>Account</a></li> </ul> </nav> </div> </header> <div class="content"> <hr> <nav class="nav-primary"> <ul> <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li> <li><a href="produkten.html">Heren</a></li> <li><a href="produkten.html">Dames</a></li> <li><a href="produkten.html">Kinderen</a></li> <li><a href="produkten.html">Sale</a></li> <li><a href="produkten.html">Outlet</a></li> </ul> </nav> <hr> </div> </div>';
     }
 }
 
