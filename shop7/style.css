@@ -54,12 +54,40 @@ body {
 header {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: var(--blauw);
     height: 100px;
 }
 
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
 header img{
     height: 50px;
+}
+
+header ul {
+    list-style-type: none;
+    max-width: 0 auto;
+}
+
+header li {
+    float: left;
+    padding: 10px;
+}
+
+header li a {
+    background-color: var(--paars);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3em;
 }
 
 /* Old Code
