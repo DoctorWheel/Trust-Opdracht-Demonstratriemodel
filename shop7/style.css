@@ -329,7 +329,7 @@ li a {
         padding-right: 8%;
     }
 }
-
+*/
 
 .footer-20192 {
     position: relative;
@@ -390,3 +390,15 @@ li a {
       .footer-20192 .cta h3 {
         font-size: 20px; }
   
+        table, tr, td, th {
+            border: none;
+            padding: 100 px;
+            padding-left: 150px;
+            
+        
+        }
+        th{
+            font-size: 20px;
+            font-weight: bold;
+            -webkit-text-fill-color;: var(--beige)
+         }
