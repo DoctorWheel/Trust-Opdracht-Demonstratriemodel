@@ -11,47 +11,83 @@
 </head>
 <body style="overflow: scroll;" class="content">
 	<header-template></header-template>
-	<div style="text-align: center;  border: 1px; padding: 0px;">
-	<div class="container">
-    <div class="image">
-			
-	<table id="detail" border="0" style="padding: 5px; border: 1px solid;">
-    <tbody >
-		<tr><td colspan="3"><h1>Produkt detail</h1><br></td></tr>	
-    <tr>
-      <td><img src="images/nikeaanvoet.jpg" width="250" alt=""></td><br>
-      <td><img src="images/nikezijkant.jpg" width="250" alt=""></td><br>
-      <td><img src="images/Nikeschuin.jpg" width="250" alt=""></td><br>
+	<div style="text-align: left;  border: 1px; padding: 0px; width: 500px; display:flex">
+  
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/nikeaanvoet.jpg" style="max-height: 500px;" alt="">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/nikezijkant.jpg" style="max-height: 500px;" alt="">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/Nikeschuin.jpg" style="max-height: 500px;" alt="">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-	  <td>&nbsp;&nbsp;</td>
-      <td valign="top" style="width: 400px; text-align: justify;"><br><br>
+<br>
+<div style="text-align:left; padding-left: 160px;">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+</div>
+<div style="padding-left: 200px; max-width: 500px;">
         Behoud je stijlvolle look in de Nike Air Force 1 '07, de basketbalschoen die een nieuwe draai geeft aan je favoriete onderdelen: stevig gestikte overlays, strakke afwerkingen en precies de juiste hoeveelheid glans zodat jij kunt schitteren.
-	</td>
-	</tr>
-    <tr>
-      <td><h3>Nike Air Force 1 '07</h3></td>
-      <td></td><br>
-	  <td></td>
-    </tr>
-    <tr>
-      <td><h3>&#8364 119,00</h3></td>
-      <td>&nbsp;</td>
-	  <td><a style="text-align: center; color: white; position: relative; margin-left: 0%; margin-bottom: 0%" class="add-cart cart1"  href="produkten.html">Naar winkelwagen</a><input size="0" type="hidden" value="15" /></td>
-    </tr>
-    <tr>
-    <td></td>
-	<td>&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
+
+        <br>
+        <br>
+    <h3>Nike Air Force 1 '07</h3>
+      <br>
+    <h3>&#8364 119,00</h3><br>           
+    <a class="add-cart cart1" href="#">In winkelwagen</a>
+    <input type="hidden" value="15" />
+
+	  
 
 </div>
     
 </div>
-		</div>
+<br>
+<br>
+
 
 <script src="main.js"></script>
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
 <footer-template></footer-template>
 </body>
 </html>
