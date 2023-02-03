@@ -442,14 +442,14 @@ table i{
     right: 0%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: var(--paars);
     color: white;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
-  }
+    border-radius: 2em;
+}
 
   .container2{
     position: relative;
