@@ -33,14 +33,33 @@ body {
 
 /* Template Header*/
 
+.assurances {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--zwart);
+    color: white;
+    height: 2em;
+}
+
 .assurances ul {
-    display: inline-block;
     list-style-type: none;
 }
 .assurances li{
     float: left;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: var(--blauw);
+    height: 100px;
+}
+
+header img{
+    height: 100px;
 }
 
 /* Old Code
