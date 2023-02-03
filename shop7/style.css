@@ -392,13 +392,13 @@ li a {
   
         table, tr, td, th {
             border: none;
-            padding: 100 px;
             padding-left: 150px;
+            padding-top: 15px;
             
         
         }
         th{
             font-size: 20px;
             font-weight: bold;
-            -webkit-text-fill-color;: var(--beige)
+            -webkit-text-fill-color;: var(--beige) 
          }
