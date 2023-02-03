@@ -450,7 +450,7 @@ table i{
 .container .btn {
     position: absolute;
     top: 80%;
-    right: 10%;
+    right: 0%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
@@ -460,8 +460,4 @@ table i{
     border: none;
     cursor: pointer;
     border-radius: 5px;
-  }
-
-  .container{
-    position: relative;
   }
