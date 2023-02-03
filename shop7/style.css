@@ -289,7 +289,7 @@ li a {
     position: relative;
     color: #fff;
     padding: 7rem 0;
-    background-color: #141d2a; }
+    background-color: var(--blauw); }
     .footer-20192 .container {
       position: relative; }
     .footer-20192 h3 {
@@ -343,4 +343,16 @@ li a {
         line-height: 1.5; }
       .footer-20192 .cta h3 {
         font-size: 20px; }
-  
+    
+        table, tr, td, th {
+            border: none;
+            padding: 100 px;
+            padding-left: 150px;
+            
+        
+        }
+        th{
+            font-size: 20px;
+            font-weight: bold;
+            -webkit-text-fill-color;: var(--beige)
+         }
