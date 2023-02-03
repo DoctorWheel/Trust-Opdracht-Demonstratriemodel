@@ -90,6 +90,14 @@ header li a {
     border-radius: 3em;
 }
 
+header li a i {
+    padding-right: 10px;
+}
+
+.header .content {
+    width: 80%;
+}
+
 /* Old Code
 
 #detail
